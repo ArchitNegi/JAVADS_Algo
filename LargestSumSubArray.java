@@ -14,6 +14,7 @@ public class LargestSumSubArray {
 		}
 		sc.close();
 		for(int i=0;i<n;i++) {
+			cursum+=arr[i];
 			if(maxsum<cursum) {
 				maxsum=cursum;
 			}
